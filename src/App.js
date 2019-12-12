@@ -1,7 +1,11 @@
 import React from "react";
 import "./App.css";
+import ImageCard from "./ImageCard"
 
 function App() {
+
+
+
   return (
     <div className="App">
       <p>
@@ -9,6 +13,7 @@ function App() {
         app! Have fun 🚀!
       </p>
     </div>
+    <ImageCard />
   );
 }
 
