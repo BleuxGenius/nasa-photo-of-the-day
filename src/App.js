@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import ImageCard from "./ImageCard"
+import ImageList from "./ImageList"
 
 function App() {
 
@@ -8,13 +8,11 @@ function App() {
 
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <h1>Nasa Photo of the Day</h1>
+      <ImageList/>
     </div>
-    <ImageCard />
+  
   );
-}
+};
 
 export default App;
